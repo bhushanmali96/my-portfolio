@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bhushanmali96.github.io/portfolio-react",
 
   "name": "portfolio",
 
@@ -36,7 +37,7 @@
 
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
 
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.3.0",
 
     "react-scripts": "5.0.1"
 
