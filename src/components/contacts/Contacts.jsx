@@ -1,7 +1,6 @@
 import React from 'react'
 import './contacts.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 const SERVICE_ID = "service_4eyipb1";
 const TEMPLATE_ID = "template_xb64ars";
