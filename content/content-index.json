@@ -13,7 +13,11 @@
 ],
 
 "Spring Boot": [
-
+{
+"title": "Spring Security",
+"slug": "security",
+"file": "/content/java/security.md"
+}
 ],
 
 "SQL": [
