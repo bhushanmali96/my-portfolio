@@ -1,0 +1,22 @@
+{
+"Java": [
+{
+"title": "OOPS",
+"slug": "oops",
+"file": "/content/java/oops.md"
+},
+{
+"title": "Streams",
+"slug": "streams",
+"file": "/content/java/streams.md"
+}
+],
+
+"Spring Boot": [
+
+],
+
+"SQL": [
+
+]
+}
