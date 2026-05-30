@@ -1,26 +1,20 @@
-import React from 'react'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Myprojects from './components/myprojects/Myprojects'
-import Contacts from './components/contacts/Contacts'
-import Footer from './components/footer/Footer'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const App = () => {
+import Home from "./pages/Home";
+import KnowledgeHubPage from "./pages/KnowledgeHubPage";
+
+function App() {
   return (
-    
-    <>
-        <Header/>
-        <Nav/>
-        <About/>
-        <Experience/>
-        <Myprojects/>
-        <Contacts/>
-        <Footer/>
-
-    </>
-  )
+    <BrowserRouter basename="/my-portfolio">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/knowledge"
+          element={<KnowledgeHubPage />}
+        />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

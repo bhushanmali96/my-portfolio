@@ -4,11 +4,13 @@ import CTA from './CTA'
 import me from '../../assets/me-new.png'
 import HeaderSocials from './HeaderSocials'
 
+
 const Header = () => {
   return (
     
     
       <header id='home'>
+
 
         <div className="container header__container">
 
@@ -25,6 +27,7 @@ const Header = () => {
 
           <a href="#contacts" className='scroll__down'>Scroll Down</a>
         </div>
+
       </header>
 
     
